@@ -9,9 +9,24 @@
 /* Begin PBXBuildFile section */
 		AD2ADE8A25B561390066D74B /* AppCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2ADE8825B561390066D74B /* AppCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD2ADEC125B563220066D74B /* export.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADEC025B563220066D74B /* export.swift */; };
-		AD2ADF5F25B57F360066D74B /* Umbrella2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; };
 		AD2ADF6B25B57FD70066D74B /* libStatic1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADF6A25B57FD70066D74B /* libStatic1.a */; };
+		AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; };
+		AD2ADFEC25B6D9330066D74B /* Umbrella2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD2ADFED25B6D9340066D74B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD2ADFEC25B6D9330066D74B /* Umbrella2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AD2ADE8525B561390066D74B /* AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,8 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2ADF5F25B57F360066D74B /* Umbrella2.framework in Frameworks */,
 				AD2ADF6B25B57FD70066D74B /* libStatic1.a in Frameworks */,
+				AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,7 @@
 				AD2ADE8125B561390066D74B /* Sources */,
 				AD2ADE8225B561390066D74B /* Frameworks */,
 				AD2ADE8325B561390066D74B /* Resources */,
+				AD2ADFED25B6D9340066D74B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
