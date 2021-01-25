@@ -26,6 +26,8 @@ class ViewController: UIViewController {
                 print(string)
             })
             .dispose()
+
+        print(APIKit.Session.self)
     }
 
 

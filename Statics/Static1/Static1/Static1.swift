@@ -8,3 +8,5 @@
 class Static1 {
 
 }
+
+import Umbrella2
