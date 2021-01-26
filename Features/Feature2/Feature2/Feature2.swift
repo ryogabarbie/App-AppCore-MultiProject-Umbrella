@@ -1,21 +1,14 @@
 //
-//  ViewController.swift
-//  App2
+//  Feature2.swift
+//  Feature2
 //
-//  Created by yamamura ryoga on 2021/01/18.
+//  Created by yamamura ryoga on 2021/01/26.
 //
 
-import UIKit
 import AppCore
-import Feature1
-import Feature2
-import Feature3
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+public class Feature2 {
+    public static func hoge() {
         Observable.just("just")
             .subscribe(onNext: { string in
                 print(string)
@@ -31,10 +24,5 @@ class ViewController: UIViewController {
             .dispose()
 
         print(APIKit.Session.self)
-
-        Feature1.hoge()
-        Feature2.hoge()
-        Feature3.hoge()
     }
 }
-

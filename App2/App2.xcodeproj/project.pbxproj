@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0D888F25BFF28300985F78 /* libFeature3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0D888E25BFF28300985F78 /* libFeature3.a */; };
+		AD0D889125BFF28800985F78 /* libFeature2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0D889025BFF28800985F78 /* libFeature2.a */; };
+		AD0D889325BFF28D00985F78 /* libFeature1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0D889225BFF28D00985F78 /* libFeature1.a */; };
 		AD2ADE3A25B55B4B0066D74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADE3925B55B4B0066D74B /* AppDelegate.swift */; };
 		AD2ADE3C25B55B4B0066D74B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADE3B25B55B4B0066D74B /* SceneDelegate.swift */; };
 		AD2ADE3E25B55B4B0066D74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADE3D25B55B4B0066D74B /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD0D888E25BFF28300985F78 /* libFeature3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFeature3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0D889025BFF28800985F78 /* libFeature2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFeature2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0D889225BFF28D00985F78 /* libFeature1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFeature1.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2ADE3625B55B4B0066D74B /* App2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2ADE3925B55B4B0066D74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD2ADE3B25B55B4B0066D74B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0D888F25BFF28300985F78 /* libFeature3.a in Frameworks */,
+				AD0D889125BFF28800985F78 /* libFeature2.a in Frameworks */,
 				AD2ADFDE25B6C6C50066D74B /* AppCore.framework in Frameworks */,
 				AD2ADFE725B6C9A50066D74B /* Umbrella2.framework in Frameworks */,
+				AD0D889325BFF28D00985F78 /* libFeature1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +103,9 @@
 		AD2ADE6E25B55E020066D74B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD0D889225BFF28D00985F78 /* libFeature1.a */,
+				AD0D889025BFF28800985F78 /* libFeature2.a */,
+				AD0D888E25BFF28300985F78 /* libFeature3.a */,
 				AD2ADEB825B5625B0066D74B /* AppCore.framework */,
 				AD2ADE6F25B55E020066D74B /* Umbrella2.framework */,
 			);
