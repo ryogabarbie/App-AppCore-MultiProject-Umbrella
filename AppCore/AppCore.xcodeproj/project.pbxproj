@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0D89C525C0186E00985F78 /* libDataStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0D89C425C0186E00985F78 /* libDataStore.a */; };
 		AD2ADE8A25B561390066D74B /* AppCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2ADE8825B561390066D74B /* AppCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD2ADEC125B563220066D74B /* export.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADEC025B563220066D74B /* export.swift */; };
-		AD2ADF6B25B57FD70066D74B /* libStatic1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADF6A25B57FD70066D74B /* libStatic1.a */; };
 		AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; };
 		AD2ADFEC25B6D9330066D74B /* Umbrella2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD0D89C425C0186E00985F78 /* libDataStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDataStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2ADE8525B561390066D74B /* AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2ADE8825B561390066D74B /* AppCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCore.h; sourceTree = "<group>"; };
 		AD2ADE8925B561390066D74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2ADF6B25B57FD70066D74B /* libStatic1.a in Frameworks */,
 				AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */,
+				AD0D89C525C0186E00985F78 /* libDataStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +83,7 @@
 		AD2ADEB525B562460066D74B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD0D89C425C0186E00985F78 /* libDataStore.a */,
 				AD2ADF6A25B57FD70066D74B /* libStatic1.a */,
 				AD2ADF6825B57FB20066D74B /* libStatic1.a */,
 				AD2ADEC425B564EE0066D74B /* Umbrella2.framework */,

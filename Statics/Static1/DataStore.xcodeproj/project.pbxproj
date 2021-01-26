@@ -30,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD2ADE9A25B5618D0066D74B /* libStatic1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStatic1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2ADE9A25B5618D0066D74B /* libDataStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2ADE9D25B5618D0066D74B /* Static1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Static1.swift; sourceTree = "<group>"; };
 		AD2ADEA525B561F10066D74B /* UserDefaultsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepository.swift; sourceTree = "<group>"; };
 		AD2ADEA625B561F10066D74B /* UserDefaultsDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsDataStore.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		AD2ADE9125B5618D0066D74B = {
 			isa = PBXGroup;
 			children = (
-				AD2ADE9C25B5618D0066D74B /* Static1 */,
+				AD2ADE9C25B5618D0066D74B /* DataStore */,
 				AD2ADE9B25B5618D0066D74B /* Products */,
 				AD2ADEB225B5620D0066D74B /* Frameworks */,
 			);
@@ -65,12 +65,12 @@
 		AD2ADE9B25B5618D0066D74B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD2ADE9A25B5618D0066D74B /* libStatic1.a */,
+				AD2ADE9A25B5618D0066D74B /* libDataStore.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD2ADE9C25B5618D0066D74B /* Static1 */ = {
+		AD2ADE9C25B5618D0066D74B /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
 				AD2ADEA625B561F10066D74B /* UserDefaultsDataStore.swift */,
@@ -81,7 +81,7 @@
 				AD2ADEA825B561F10066D74B /* UserDefaultsRepositoryProtocol.swift */,
 				AD2ADE9D25B5618D0066D74B /* Static1.swift */,
 			);
-			path = Static1;
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 		AD2ADEB225B5620D0066D74B /* Frameworks */ = {
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD2ADE9925B5618D0066D74B /* Static1 */ = {
+		AD2ADE9925B5618D0066D74B /* DataStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD2ADEA125B5618D0066D74B /* Build configuration list for PBXNativeTarget "Static1" */;
+			buildConfigurationList = AD2ADEA125B5618D0066D74B /* Build configuration list for PBXNativeTarget "DataStore" */;
 			buildPhases = (
 				AD2ADE9625B5618D0066D74B /* Sources */,
 				AD2ADE9725B5618D0066D74B /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = Static1;
+			name = DataStore;
 			productName = Static1;
-			productReference = AD2ADE9A25B5618D0066D74B /* libStatic1.a */;
+			productReference = AD2ADE9A25B5618D0066D74B /* libDataStore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD2ADE9525B5618D0066D74B /* Build configuration list for PBXProject "Static1" */;
+			buildConfigurationList = AD2ADE9525B5618D0066D74B /* Build configuration list for PBXProject "DataStore" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD2ADE9925B5618D0066D74B /* Static1 */,
+				AD2ADE9925B5618D0066D74B /* DataStore */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD2ADE9525B5618D0066D74B /* Build configuration list for PBXProject "Static1" */ = {
+		AD2ADE9525B5618D0066D74B /* Build configuration list for PBXProject "DataStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD2ADE9F25B5618D0066D74B /* Debug */,
@@ -316,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD2ADEA125B5618D0066D74B /* Build configuration list for PBXNativeTarget "Static1" */ = {
+		AD2ADEA125B5618D0066D74B /* Build configuration list for PBXNativeTarget "DataStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD2ADEA225B5618D0066D74B /* Debug */,

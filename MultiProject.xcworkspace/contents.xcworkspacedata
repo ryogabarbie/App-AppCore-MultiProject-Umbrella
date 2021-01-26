@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Umbrella2/Umbrella2.xcodeproj">
+      location = "group:/Users/yamamuraryoga/projects/tmp/AppCoreMultiProject/Umbrella2/Umbrella2.xcodeproj">
    </FileRef>
    <Group
       location = "container:"
       name = "Statics">
       <FileRef
-         location = "group:Statics/Static1/Static1.xcodeproj">
+         location = "group:/Users/yamamuraryoga/projects/tmp/AppCoreMultiProject/Statics/Static1/DataStore.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
