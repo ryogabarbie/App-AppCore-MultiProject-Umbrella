@@ -1,1 +1,1 @@
-App -> AppCore -> Static -> Umbrella -> RxSwift(3rd party library)
+App -> Features -> AppCore(Static) -> Umbrella(3rd party library)
