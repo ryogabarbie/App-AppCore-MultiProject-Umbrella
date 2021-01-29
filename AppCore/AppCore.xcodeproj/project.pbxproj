@@ -11,22 +11,7 @@
 		AD2ADE8A25B561390066D74B /* AppCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2ADE8825B561390066D74B /* AppCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD2ADEC125B563220066D74B /* export.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADEC025B563220066D74B /* export.swift */; };
 		AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; };
-		AD2ADFEC25B6D9330066D74B /* Umbrella2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AD2ADFED25B6D9340066D74B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AD2ADFEC25B6D9330066D74B /* Umbrella2.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AD0D89C425C0186E00985F78 /* libDataStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDataStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +99,6 @@
 				AD2ADE8125B561390066D74B /* Sources */,
 				AD2ADE8225B561390066D74B /* Frameworks */,
 				AD2ADE8325B561390066D74B /* Resources */,
-				AD2ADFED25B6D9340066D74B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
