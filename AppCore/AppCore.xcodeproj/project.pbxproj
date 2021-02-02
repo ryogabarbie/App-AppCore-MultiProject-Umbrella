@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AD0D89C525C0186E00985F78 /* libDataStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0D89C425C0186E00985F78 /* libDataStore.a */; };
+		AD0D8B8F25C7C4F700985F78 /* Umbrella2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; };
 		AD2ADE8A25B561390066D74B /* AppCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2ADE8825B561390066D74B /* AppCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD2ADEC125B563220066D74B /* export.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2ADEC025B563220066D74B /* export.swift */; };
-		AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2ADEC425B564EE0066D74B /* Umbrella2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2ADFEB25B6D9330066D74B /* Umbrella2.framework in Frameworks */,
 				AD0D89C525C0186E00985F78 /* libDataStore.a in Frameworks */,
+				AD0D8B8F25C7C4F700985F78 /* Umbrella2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
